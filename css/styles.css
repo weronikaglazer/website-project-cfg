@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 250);
+}
+
+main {
+    flex: 1;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 0px 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(229, 163, 101);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 0px 5px;
+}
+
+
+  
+
+
