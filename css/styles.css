@@ -10,6 +10,20 @@ main {
     flex: 1;
 }
 
+.navbar-brand{
+    display: flex;
+}
+img{
+    mix-blend-mode: darken;
+
+}
+ h5{
+margin-top:30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+font-size: 22px;
+ } 
+
 .navbar {
     height: 70px;
 }
@@ -39,21 +53,6 @@ a:hover {
     padding: 10px 15px;
     margin: 0px 5px;
 }
-<<<<<<< HEAD
-.navbar-brand{
-    display: inline-flex;
-}
-img{
-    mix-blend-mode: darken;
-
-}
- h5{
-margin-top:35px;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-weight: 500;
-font-size: 22px;
- } 
-=======
 
 
 .footer1{ 
