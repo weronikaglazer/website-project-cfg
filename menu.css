@@ -1,0 +1,45 @@
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(./tea\ room.jpg);
+}
+.menu{max-width: 500px;
+    width: 50%;
+    height: 600px;
+    margin:40px auto;
+   text-align: center;
+   background-image: url(./green\ tea\ cup.jpg);
+   border-radius: 15px;
+}
+p{font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    display: inline-block;
+}
+.tea{
+    text-align: left;
+width: 75%;
+}
+.price{
+    text-align: right;
+}
+.logo{
+    display: flex;
+    width:250px;
+    height: 100px;
+    margin:5px auto;
+    padding-top: 10px;
+}
+
+h5{
+    margin-top: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+font-size: 20px;
+}
+h3{
+    margin: 0;
+    padding: 0;
+   color: rgb(170, 110, 54);
+
+
+}
