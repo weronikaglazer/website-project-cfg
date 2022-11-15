@@ -8,12 +8,17 @@ body{
     height: 600px;
     margin:40px auto;
    text-align: center;
-   background-image: url(./green\ tea\ cup.jpg);
    border-radius: 15px;
+background-color:rgb(253, 250, 250);
+
+   
 }
 p{font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     display: inline-block;
+}
+img{
+    mix-blend-mode: darken;
 }
 .tea{
     text-align: left;
@@ -40,6 +45,5 @@ h3{
     margin: 0;
     padding: 0;
    color: rgb(170, 110, 54);
-
 
 }
