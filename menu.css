@@ -20,6 +20,10 @@ p{font-family:Georgia, 'Times New Roman', Times, serif;
 img{
     mix-blend-mode: darken;
 }
+.image{
+    margin-top: -220px;
+    margin-left: 50px;
+}
 .tea{
     text-align: left;
 width: 75%;

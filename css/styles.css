@@ -12,6 +12,7 @@ main {
 
 .navbar-brand{
     display: flex;
+
 }
 
 img{
@@ -56,6 +57,30 @@ font-size: 22px;
     border: solid 1px gray;
     border-radius: 10px;
 }
+.site{
+    width: 400px;
+    height: 100px;
+    margin:50px 40%;
+    padding-top:40px;
+}
+
+
+@keyframes scroll {
+    0% {
+transform: translateX(0%);
+    }
+    100% {
+transform:translateX(-100%) ;
+    }
+}
+.slide{
+    display: flex;
+    animation:scroll 8s linear infinite;
+    width: 50%;
+}
+
+
+
 
 
 .footer1{ 
