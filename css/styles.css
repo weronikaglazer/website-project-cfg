@@ -12,6 +12,7 @@ main {
 
 .navbar-brand{
     display: flex;
+
 }
 img{
     mix-blend-mode: darken;
@@ -53,6 +54,30 @@ a:hover {
     padding: 10px 15px;
     margin: 0px 5px;
 }
+.site{
+    width: 400px;
+    height: 100px;
+    margin:50px 40%;
+    padding-top:40px;
+}
+
+
+@keyframes scroll {
+    0% {
+transform: translateX(0%);
+    }
+    100% {
+transform:translateX(-100%) ;
+    }
+}
+.slide{
+    display: flex;
+    animation:scroll 8s linear infinite;
+    width: 50%;
+}
+
+
+
 
 
 .footer1{ 
@@ -71,6 +96,6 @@ a:hover {
     width: 50%;
     padding: 25px;
 }  
->>>>>>> 80f187610f4a6904c31e2354a747f47e71b0e8e4
+
 
 
